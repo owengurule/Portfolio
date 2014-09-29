@@ -1,0 +1,48 @@
+﻿@model Portfolio.Models.Contact_Information
+
+@{
+    ViewBag.Title = "Contact Form";
+}
+
+<h2>Contact</h2>
+<form action="@Url.Action("Contact", "Contact") method="post">
+
+    <span>
+        @Html.HiddenFor(x => x.ContactID)
+    </span>
+
+
+    <div>
+        @Html.LabelFor(x => x.First)
+        @Html.TextBoxFor(x=> x.First)
+        @Html.ValidationMessageFor(x => x.First)
+
+        @Html.LabelFor(x => x.Last)
+        @Html.TextBoxFor(x => x.Last)
+        @Html.ValidationMessageFor(x => x.Last)
+    </div>
+    <br />
+    <div>
+        @Html.LabelFor(x => x.email)
+        @Html.TextBoxFor(x => x.email)
+        @Html.ValidationMessageFor(x => x.email)
+
+        @Html.LabelFor(x => x.phone)
+        @Html.TextBoxFor(x => x.phone)
+        @Html.ValidationMessageFor(x => x.phone)
+    </div>
+    <br />
+    <div>
+        @Html.LabelFor(x => x.comment)
+        @Html.TextBoxFor(x => x.comment)
+        @Html.ValidationMessageFor(x => x.comment)
+    </div>
+
+    <input type="submit" value="Click to Submit" />
+
+</form>
+
+@*Add a reference to jQuery Validation this is the javasript that actually performs our validation using*@
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
