@@ -26,5 +26,10 @@ namespace Portfolio.Controllers
             return View();
         }
 
+        public ActionResult Indextwo()
+    {
+        return View();
+    }
+
     }
 }

@@ -1,7 +1,7 @@
 ﻿body {
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
-    color: #ff3232;
+    color: gold;
     background-color: #000;
 }
 
@@ -67,7 +67,7 @@ textarea {
     display: inline-block;
     float: left;
     width: 33.3%;
-    border: 1px solid Gold;
+    border: 1px solid #560f9d;
 }
 
 .right{
@@ -75,7 +75,7 @@ textarea {
         display: inline-block;
         float: right;
         width: 33.3%;
-        border: 1px solid Gold;
+        border: 1px solid #560f9d;
 
     }
 
@@ -84,7 +84,7 @@ textarea {
     box-sizing:border-box;
     display: inline-block;
     width: 33.3%;
-    border: 1px solid Gold;
+    border: 1px solid #560f9d;
 }
 
 .About 
@@ -109,4 +109,19 @@ textarea {
     display:inline-block;
     border: 5px solid Red;
 }
+.hide
+{
+    display:none;
+}
 
+.active
+{
+    display:inline-block;
+}
+
+
+
+.home-next
+{
+    cursor:pointer;
+}

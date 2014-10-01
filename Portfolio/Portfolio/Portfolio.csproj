@@ -157,6 +157,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\IMAGES\afro-samurai-resurrection-2314.jpg" />
+    <Content Include="Content\IMAGES\afrokuma.jpg" />
+    <Content Include="Content\IMAGES\gears_of_war_3_omen_desktop_by_unifiedac-d4ab7s8.jpg" />
+    <Content Include="Content\IMAGES\Subrosa Shield.jpg" />
+    <Content Include="Content\IMAGES\subrosacollage.jpg" />
+    <Content Include="Content\IMAGES\The_Name_Owen.jpg" />
     <Content Include="Content\IMAGES\WIN_20140924_192431.JPG" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -232,6 +238,7 @@
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\JavaScript1.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -245,6 +252,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
@@ -264,6 +272,7 @@
     <Content Include="Views\Work\Work.cshtml" />
     <Content Include="Views\About\About.cshtml" />
     <Content Include="Views\Contact\ThankYou.cshtml" />
+    <Content Include="Views\Home\Indextwo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
