@@ -157,9 +157,30 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\IMAGES\afro-samurai-blackpanther.jpg" />
     <Content Include="Content\IMAGES\afro-samurai-resurrection-2314.jpg" />
     <Content Include="Content\IMAGES\afrokuma.jpg" />
+    <Content Include="Content\IMAGES\battleshipscreenshot1.png" />
+    <Content Include="Content\IMAGES\battleshipscreenshot2.png" />
+    <Content Include="Content\IMAGES\battleshipscreenshot3.png" />
+    <Content Include="Content\IMAGES\battleshipscreenshot4.png" />
+    <Content Include="Content\IMAGES\drawing1.jpg" />
+    <Content Include="Content\IMAGES\drawing2.jpg" />
+    <Content Include="Content\IMAGES\drawing3.jpg" />
     <Content Include="Content\IMAGES\gears_of_war_3_omen_desktop_by_unifiedac-d4ab7s8.jpg" />
+    <Content Include="Content\IMAGES\IMG.jpg" />
+    <Content Include="Content\IMAGES\IMG_0001.jpg" />
+    <Content Include="Content\IMAGES\IMG_0002.jpg" />
+    <Content Include="Content\IMAGES\IMG_0004.jpg" />
+    <Content Include="Content\IMAGES\owengurulemyname.jpg" />
+    <Content Include="Content\IMAGES\owengurulestarwarslogo.png" />
+    <Content Include="Content\IMAGES\realstarwarsimageforowen.jpg" />
+    <Content Include="Content\IMAGES\starbackground.htm" />
+    <Content Include="Content\IMAGES\starpicture1.jpg" />
+    <Content Include="Content\IMAGES\starwarsimage1.jpg" />
+    <Content Include="Content\IMAGES\starwarsimage2.jpg" />
+    <Content Include="Content\IMAGES\starwarsimage3.jpg" />
+    <Content Include="Content\IMAGES\starwarsimage4.jpg" />
     <Content Include="Content\IMAGES\Subrosa Shield.jpg" />
     <Content Include="Content\IMAGES\subrosacollage.jpg" />
     <Content Include="Content\IMAGES\The_Name_Owen.jpg" />

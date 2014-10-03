@@ -2,11 +2,24 @@
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
     color: gold;
-    background-color: #000;
+    background-image: url(IMAGES/starpicture1.jpg);
+    background-color: black;
+
 }
 
-header, footer, nav, section {
+header {
     display: block;
+    background: radial-gradient(red,orange,transparent,WHITE,transparent,gray,transparent,darkgray,#202020,transparent,transparent,transparent,transparent,transparent,transparent,transparent);
+}
+
+section {
+    display: block;
+    background-color: transparent;
+}
+
+footer, nav {
+    display: block;
+    background: radial-gradient(transparent,white,gold,darkgoldenrod,transparent,transparent)
 }
 
 
@@ -67,7 +80,7 @@ textarea {
     display: inline-block;
     float: left;
     width: 33.3%;
-    border: 1px solid #560f9d;
+    border: 1px solid white;
 }
 
 .right{
@@ -75,7 +88,7 @@ textarea {
         display: inline-block;
         float: right;
         width: 33.3%;
-        border: 1px solid #560f9d;
+        border: 1px solid white;
 
     }
 
@@ -84,13 +97,13 @@ textarea {
     box-sizing:border-box;
     display: inline-block;
     width: 33.3%;
-    border: 1px solid #560f9d;
+    border: 1px solid white;
 }
 
 .About 
 {
     display: inline-block;
-    border: 5px solid Red;
+    border: 5px solid white;
     width: thick;
 }
 
@@ -99,7 +112,7 @@ textarea {
     box-sizing: border-box;
         width: 48%;
     display:inline-block;
-    border: 5px solid Red; 
+    border: 5px solid Teal; 
 }
 
 .bottomleft, .bottomright
@@ -107,7 +120,7 @@ textarea {
     box-sizing: border-box;
     width: 48% ;
     display:inline-block;
-    border: 5px solid Red;
+    border: 5px solid teal;
 }
 .hide
 {
@@ -121,7 +134,19 @@ textarea {
 
 
 
-.home-next
+.firstimage-next
 {
     cursor:pointer;
+}
+
+label
+{
+    display: inline-block;
+    width: 75px;
+}
+
+.workimage
+{
+    max-width: length;
+    max-height: length;
 }

@@ -17,25 +17,25 @@ namespace Portfolio.Controllers
             return View(new Models.Contact_Information());
         }
 
-        //[HttpPost]
-        //public ActionResult Contact(Models.Contact_Information contactForm)
-        //{
-        //    Models.ContactEntities db = new Models.ContactEntities();
-        //    db.Contact_Information.Add(contactForm);
+        [HttpPost]
+        public ActionResult Contact(Models.Contact_Information contactForm)
+        {
+            Models.ContactEntities db = new Models.ContactEntities();
+            db.Contact_Information.Add(contactForm);
 
-        //    db.SaveChanges();
+            db.SaveChanges();
 
-        //    return RedirectToAction("ThankYou", "Contact");
-        //}
+            return RedirectToAction("ThankYou", "Contact");
+        }
 
 
         //new contact form post to send me an email with the info
         [HttpPost]
-        public ActionResult Contact(Models.Contact_Information contactForm)
+        public ActionResult Contact1(Models.Contact_Information contactForm)
         {
-            //send an email
-            // step 1 add using System.Net.Mail
-            //step 2 create a new message
+        //send an email
+           // step 1 add using System.Net.Mail
+           //step 2 create a new message
             //first perameter= who its from second= who its to.
             MailMessage message = new MailMessage("notowengurule@gmail.com", "owengurule@gmail.com");
 

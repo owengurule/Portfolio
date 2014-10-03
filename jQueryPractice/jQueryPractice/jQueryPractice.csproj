@@ -182,14 +182,18 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AjaxGETController.cs" />
     <Compile Include="Controllers\CarouselController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TabController.cs" />
     <Compile Include="Controllers\TabsController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\ContactForm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -306,6 +310,15 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Tabs\Index.cshtml" />
     <Content Include="Views\Carousel\Index.cshtml" />
+    <Content Include="Views\AjaxGET\Index.cshtml" />
+    <Content Include="Views\AjaxGET\Cats.cshtml" />
+    <Content Include="Views\Tab\Tab1.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Contact\ThankYou.cshtml" />
+    <Content Include="Views\Tab\Tab2.cshtml" />
+    <Content Include="Views\Tab\Tab3.cshtml" />
+    <Content Include="Views\Tab\Index.cshtml" />
+    <Content Include="Views\AjaxPOST\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -5,7 +5,7 @@
 }
 
 <h2>Contact</h2>
-<form action="@Url.Action("Contact", "Contact")" method="post">
+<form id="contactform" action="@Url.Action("Contact", "Contact")" method="post">
 
     <span>
         @Html.HiddenFor(x => x.ContactID)
@@ -34,7 +34,7 @@
     <br />
     <div>
         @Html.LabelFor(x => x.comment)
-        @Html.TextBoxFor(x => x.comment)
+        @Html.TextAreaFor(x => x.comment)
         @Html.ValidationMessageFor(x => x.comment)
     </div>
 
