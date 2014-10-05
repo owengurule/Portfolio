@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Portfolio.Models
 {
+    [MetadataType(typeof(ContactValidation))]
     public partial class Contact
     {
 

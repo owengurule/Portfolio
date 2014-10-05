@@ -164,6 +164,10 @@
     <Content Include="Content\IMAGES\battleshipscreenshot2.png" />
     <Content Include="Content\IMAGES\battleshipscreenshot3.png" />
     <Content Include="Content\IMAGES\battleshipscreenshot4.png" />
+    <Content Include="Content\IMAGES\demonslayerimage1.png" />
+    <Content Include="Content\IMAGES\demonslayerimage2.png" />
+    <Content Include="Content\IMAGES\demonslayerimage3.png" />
+    <Content Include="Content\IMAGES\demonslayerimageoriginal.png" />
     <Content Include="Content\IMAGES\drawing1.jpg" />
     <Content Include="Content\IMAGES\drawing2.jpg" />
     <Content Include="Content\IMAGES\drawing3.jpg" />
@@ -294,6 +298,8 @@
     <Content Include="Views\About\About.cshtml" />
     <Content Include="Views\Contact\ThankYou.cshtml" />
     <Content Include="Views\Home\Indextwo.cshtml" />
+    <Content Include="Views\Work\Battleship.cshtml" />
+    <Content Include="Views\Work\Demonslayer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

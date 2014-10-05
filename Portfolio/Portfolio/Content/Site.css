@@ -107,7 +107,9 @@ textarea {
     width: thick;
 }
 
-.topleft, .topright
+
+
+.topright, .topleft
 {
     box-sizing: border-box;
         width: 48%;

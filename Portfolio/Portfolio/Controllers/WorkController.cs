@@ -21,5 +21,15 @@ namespace Portfolio.Controllers
             return View();
         }
 
+        public ActionResult Battleship()
+        {
+            return View();
+        }
+
+        public ActionResult Demonslayer()
+        {
+            return View();
+        }
+
     }
 }
