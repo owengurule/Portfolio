@@ -172,6 +172,9 @@
     <Content Include="Content\IMAGES\drawing2.jpg" />
     <Content Include="Content\IMAGES\drawing3.jpg" />
     <Content Include="Content\IMAGES\gears_of_war_3_omen_desktop_by_unifiedac-d4ab7s8.jpg" />
+    <Content Include="Content\IMAGES\guess that number image 3.png" />
+    <Content Include="Content\IMAGES\guessthatnumberimage1.png" />
+    <Content Include="Content\IMAGES\guessthatnumberimage2.png" />
     <Content Include="Content\IMAGES\IMG.jpg" />
     <Content Include="Content\IMAGES\IMG_0001.jpg" />
     <Content Include="Content\IMAGES\IMG_0002.jpg" />
@@ -300,6 +303,7 @@
     <Content Include="Views\Home\Indextwo.cshtml" />
     <Content Include="Views\Work\Battleship.cshtml" />
     <Content Include="Views\Work\Demonslayer.cshtml" />
+    <Content Include="Views\Work\Guessthatnumber.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
