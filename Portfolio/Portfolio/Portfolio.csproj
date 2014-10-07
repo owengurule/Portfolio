@@ -164,6 +164,9 @@
     <Content Include="Content\IMAGES\battleshipscreenshot2.png" />
     <Content Include="Content\IMAGES\battleshipscreenshot3.png" />
     <Content Include="Content\IMAGES\battleshipscreenshot4.png" />
+    <Content Include="Content\IMAGES\bmximage1.jpg" />
+    <Content Include="Content\IMAGES\bmximage2.jpg" />
+    <Content Include="Content\IMAGES\bmximage3.jpg" />
     <Content Include="Content\IMAGES\demonslayerimage1.png" />
     <Content Include="Content\IMAGES\demonslayerimage2.png" />
     <Content Include="Content\IMAGES\demonslayerimage3.png" />
@@ -295,15 +298,13 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Container2.cshtml" />
-    <Content Include="Views\Contact\Contact.cshtml" />
-    <Content Include="Views\Work\Work.cshtml" />
-    <Content Include="Views\About\About.cshtml" />
     <Content Include="Views\Contact\ThankYou.cshtml" />
-    <Content Include="Views\Home\Indextwo.cshtml" />
     <Content Include="Views\Work\Battleship.cshtml" />
     <Content Include="Views\Work\Demonslayer.cshtml" />
     <Content Include="Views\Work\Guessthatnumber.cshtml" />
+    <Content Include="Views\Work\Index.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

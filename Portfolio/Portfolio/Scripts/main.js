@@ -4,6 +4,7 @@
         var activeSlide = $('.home.active');
         //get the next slide
         var nextSlide = activeSlide.next();
+
         //make sure its a carousel slide
         if (!nextSlide.hasClass('home'))
         {
@@ -15,8 +16,30 @@
         nextSlide.removeClass('hide').addClass('active');
 
 
+
         
 
+
+    });
+    $(document).ready(function () {
+
+        $('.lastimage-prev').on('click', function () {
+
+            var activeSlide = $('.home.active');
+            var prevSlide = activeSlide.prev();
+
+            if (!prevSlide.hasClass('home'))
+            {
+
+                prevSlide = $('.home').last();
+
+            }
+
+            activeSlide.removeClass('active').addClass('hide');
+
+            prevSlide.removeClass('hide').addClass('active');
+
+        });
 
     });
     //Carousel Function End

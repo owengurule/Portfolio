@@ -1,15 +1,14 @@
 ﻿body {
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
-    color: gold;
-    background-image: url(IMAGES/starpicture1.jpg);
-    background-color: black;
+    color: black;
+    background-color: darkgray;
 
 }
 
 header {
     display: block;
-    background: radial-gradient(red,orange,transparent,WHITE,transparent,gray,transparent,darkgray,#202020,transparent,transparent,transparent,transparent,transparent,transparent,transparent);
+    background: radial-gradient(white,white,transparent,transparent);
 }
 
 section {
@@ -19,7 +18,7 @@ section {
 
 footer, nav {
     display: block;
-    background: radial-gradient(transparent,white,gold,darkgoldenrod,transparent,transparent)
+    background: white
 }
 
 
@@ -109,21 +108,16 @@ textarea {
 
 
 
-.topright, .topleft
+.topright, .topleft, .bottomleft, .bottomright
 {
     box-sizing: border-box;
         width: 48%;
+        height: 500px;
     display:inline-block;
     border: 5px solid Teal; 
 }
 
-.bottomleft, .bottomright
-{
-    box-sizing: border-box;
-    width: 48% ;
-    display:inline-block;
-    border: 5px solid teal;
-}
+
 .hide
 {
     display:none;
@@ -141,6 +135,11 @@ textarea {
     cursor:pointer;
 }
 
+.lastimage-prev
+{
+    cursor:pointer;
+}
+
 label
 {
     display: inline-block;
@@ -149,6 +148,6 @@ label
 
 .workimage
 {
-    max-width: length;
-    max-height: length;
+    max-width: 100%;
+    max-height: 100%;
 }

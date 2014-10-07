@@ -12,7 +12,7 @@ namespace Portfolio.Controllers
         //
         // GET: /Contact/
         [HttpGet]
-        public ActionResult Contact()
+        public ActionResult Index()
         {
             return View(new Models.Contact_Information());
         }
