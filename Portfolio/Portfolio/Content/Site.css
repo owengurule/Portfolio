@@ -108,13 +108,24 @@ textarea {
 
 
 
-.topright, .topleft, .bottomleft, .bottomright
+.topright, .topleft
 {
     box-sizing: border-box;
         width: 48%;
-        height: 500px;
+        height: auto;
     display:inline-block;
-    border: 5px solid Teal; 
+    border: 5px solid maroon; 
+}
+
+.bottomleft, .bottomright
+{
+
+        box-sizing: border-box;
+        width: 48%;
+        height: auto;
+    display:inline-block;
+    border: 5px solid maroon; 
+
 }
 
 

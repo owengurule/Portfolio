@@ -47,14 +47,11 @@
     //AJAX POST FOR CONTACT FORM
     $('#contactForm').on('submit', function (event) {
         event.preventDefault();
-        if ($(this).valid())
+        if ($(this).valid()) {
             $.post($(this).attr('action'), $(this).serialize(), function (data) {
                 $('#container').html(data);
             });
-            
+            }
     });
-
-    
-
 
 });

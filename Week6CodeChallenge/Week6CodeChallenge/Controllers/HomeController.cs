@@ -8,12 +8,15 @@ namespace Week6CodeChallenge.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
-
+        
         public ActionResult Index()
         {
             return View();
+        }
+
+        public ActionResult Work()
+        {
+            return PartialView();
         }
 
     }
