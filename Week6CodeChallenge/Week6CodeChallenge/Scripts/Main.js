@@ -19,6 +19,11 @@ $(document).ready(function () {
         var urlRequest = $(this).data('url');
         $.get(urlRequest, function (data) {
             $('#content').html(data);
+
+
+
+
+
         });
     });
 });

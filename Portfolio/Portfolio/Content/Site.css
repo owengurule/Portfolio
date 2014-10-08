@@ -21,6 +21,10 @@ footer, nav {
     background: white
 }
 
+form
+{
+    text-align: center;
+}
 
 /* Styles for basic forms
 -----------------------------------------------------------*/
@@ -114,7 +118,9 @@ textarea {
         width: 48%;
         height: auto;
     display:inline-block;
-    border: 5px solid maroon; 
+    background-color: navajowhite;
+    border: 5px solid black; 
+    
 }
 
 .bottomleft, .bottomright
@@ -124,7 +130,9 @@ textarea {
         width: 48%;
         height: auto;
     display:inline-block;
-    border: 5px solid maroon; 
+    background-color: navajowhite;
+    border: 5px solid black; 
+    
 
 }
 

@@ -84,3 +84,24 @@ textarea {
     width: 33.3%;
     border: 1px solid white;
 }
+
+
+.topright, .topleft
+{
+    box-sizing: border-box;
+        width: 48%;
+        height: auto;
+    display:inline-block;
+    border: 5px solid maroon; 
+}
+
+.bottomleft, .bottomright
+{
+
+        box-sizing: border-box;
+        width: 48%;
+        height: auto;
+    display:inline-block;
+    border: 5px solid maroon; 
+
+}
